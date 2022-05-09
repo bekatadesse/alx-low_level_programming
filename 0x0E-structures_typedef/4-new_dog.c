@@ -4,7 +4,6 @@
  * _strdup - returns a pointer to a newly allocated space in memory, which
  * contains a copy of the string given as a parameter.
  * @str: string to copy
- *
  * Return: Pointer
  */
 char *_strdup(char *str)
@@ -31,12 +30,12 @@ char *_strdup(char *str)
 	return (s);
 }
 /**
- new_dog - creates a new dog
- @name: name of dog
- @age: age of dog
- @owner: owner of dog
- Return: On success 1.
- On error, -1 is returned, and errno is set appropriately.
+ * new_dog - creates a new dog
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
